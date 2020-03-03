@@ -407,8 +407,8 @@ def listen():
 		raise Exception('No name found')
 	document=Document()
 	para=document.add_heading("")
-	runn=para.add_run("HealthCare Hospitals \n")
-	run=para.add_run(" Dr.Rishi Raj M.D.(Neurology) \t \t Dr.Swathy M.S.(Cardiology) \t Dr.Shreevarshann M.S.(Ophthalmology) \n No.20,Blossom Avenue,Madura \n Ph:0452-2588 1522 \n" )
+	runn=para.add_run("ABC HOSPITAL \n")
+	run=para.add_run(" Dr.Jane Doe M.D.(Neurology) \t \t Dr.Smith M.S.(Ortho) \t Dr.Roshni M.S.(Ophthalmology) \n Sector: 17 Navi Mumbai \n Ph:0987654321 \n" )
 	font = run.font
 	runn.font.size=Pt(18)
 	runn.font.color.rgb=RGBColor(153, 17, 150)
@@ -499,7 +499,7 @@ def upload(p=None):
 	
 	def upload1(p):
 		toaddr=E1.get()		
-		fromaddr='roshnijohnson183@gmail.com' #Enter Your E-mail id 
+		fromaddr='#email' #Enter Your E-mail id 
 		msg = MIMEMultipart() 
 		msg['From'] = fromaddr 
 		msg['To'] = toaddr 
@@ -526,7 +526,7 @@ def upload(p=None):
 		msg.attach(p) 
 		s = smtplib.SMTP('smtp.gmail.com', 587) 
 		s.starttls() 
-		s.login(fromaddr,'Roshni183gmail' )  #Enter Your email password
+		s.login(fromaddr,'#password' )  #Enter Your email password
 		text = msg.as_string() 
 		s.sendmail(fromaddr, toaddr, text) 
 		top=tk.Tk()
