@@ -19,6 +19,7 @@ A GUI application that prepares prescription by doctor patient communication.
   3.Speech Recognition - pip install SpeechRecognition
   4.PyAudio - pip install PyAudio
   
+  sneha.docx is generated after Recording(3).wav is uploaded
 
  
 
