@@ -26,9 +26,9 @@ A GUI application that prepares prescription by doctor patient communication.
   
   3. python-docx - pip install python-docx
   
-  3.Speech Recognition - pip install SpeechRecognition
+  4.Speech Recognition - pip install SpeechRecognition
   
-  4.PyAudio - pip install PyAudio
+  5.PyAudio - pip install PyAudio
   
   (s)neha.docx is generated after Recording(3).wav is uploaded
 
