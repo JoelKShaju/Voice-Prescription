@@ -16,7 +16,6 @@ from email import encoders
 from datetime import date
 from stat import S_IREAD, S_IRGRP, S_IROTH
 from tkinter import ttk
-import exception
 
 r = tk.Tk() 
 
